@@ -1,2 +1,1 @@
-# watsugi-website
-Watsugi official website
+export default { plugins: { tailwindcss: {}, autoprefixer: {} } };
