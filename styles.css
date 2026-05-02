@@ -1,0 +1,99 @@
+:root {
+  --bg: #f8f5f0;
+  --ink: #171717;
+  --muted: #65615b;
+  --line: rgba(23, 23, 23, 0.14);
+  --card: #ebe5dc;
+  --dark: #11141a;
+  --dark-soft: #1b2028;
+  --accent: #7c5b3e;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.55;
+}
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  padding: 22px 8vw;
+  background: rgba(248, 245, 240, 0.88);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid var(--line);
+}
+.brand { color: inherit; text-decoration: none; display: grid; gap: 1px; }
+.brand-jp { font-size: 24px; letter-spacing: 0.18em; }
+.brand-en { font-size: 18px; letter-spacing: 0.02em; }
+.brand-tag { font-size: 10px; letter-spacing: 0.34em; text-transform: uppercase; color: var(--muted); }
+.nav { display: flex; align-items: center; gap: 28px; font-size: 14px; }
+.nav a { color: var(--ink); text-decoration: none; }
+.nav-button, .button { border: 1px solid var(--ink); border-radius: 999px; padding: 10px 18px; }
+.hero {
+  min-height: 88vh;
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.8fr);
+  align-items: center;
+  gap: 7vw;
+  padding: 72px 8vw 96px;
+}
+.eyebrow, .section-label { color: var(--accent); font-size: 13px; letter-spacing: 0.16em; }
+h1, h2, h3, p { margin-top: 0; }
+h1 { max-width: 780px; font-size: clamp(48px, 7vw, 96px); line-height: 0.98; letter-spacing: -0.055em; margin-bottom: 28px; }
+h2 { font-size: clamp(32px, 4.2vw, 58px); line-height: 1.05; letter-spacing: -0.045em; }
+h3 { font-size: 24px; letter-spacing: -0.02em; }
+.lead { max-width: 660px; font-size: 20px; color: var(--muted); }
+.jp { letter-spacing: 0.03em; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 34px; }
+.button { display: inline-flex; color: inherit; text-decoration: none; transition: transform 0.2s ease, background 0.2s ease; }
+.button:hover { transform: translateY(-2px); }
+.primary { background: var(--ink); color: var(--bg); }
+.secondary { background: transparent; }
+.hero-card {
+  min-height: 480px;
+  border-radius: 34px;
+  padding: 48px;
+  background: radial-gradient(circle at 20% 20%, rgba(255,255,255,0.12), transparent 36%), linear-gradient(145deg, var(--dark), var(--dark-soft));
+  color: var(--bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.14);
+}
+.card-mark { text-align: right; letter-spacing: 0.22em; }
+.card-line { width: 88px; height: 1px; background: rgba(248,245,240,0.55); margin-top: auto; margin-bottom: 24px; }
+.hero-card p { max-width: 340px; font-size: 24px; line-height: 1.35; }
+.section { padding: 96px 8vw; border-top: 1px solid var(--line); }
+.philosophy h2 { max-width: 930px; }
+.two-col, .artisans, .contact { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 72px; align-items: start; }
+.two-col p, .story-panel p, .for-artisans p, .contact p { color: var(--muted); font-size: 18px; }
+.section-head { display: flex; justify-content: space-between; gap: 40px; align-items: end; margin-bottom: 36px; }
+.category-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+.category { min-height: 320px; padding: 32px; border: 1px solid var(--line); border-radius: 28px; background: rgba(255, 255, 255, 0.26); }
+.category-number { color: var(--accent); font-size: 13px; letter-spacing: 0.22em; }
+.category p { color: var(--muted); }
+.story-panel { padding: 36px; border-radius: 28px; background: var(--card); }
+.story-panel ul { margin: 24px 0 0; padding-left: 20px; color: var(--ink); }
+.for-artisans { background: #191612; color: var(--bg); }
+.for-artisans p { max-width: 760px; color: rgba(248, 245, 240, 0.78); }
+.for-artisans .primary { background: var(--bg); color: var(--ink); border-color: var(--bg); }
+.contact-link { display: inline-flex; margin-top: 16px; color: var(--ink); font-size: 24px; text-decoration-thickness: 1px; text-underline-offset: 8px; }
+.footer { display: flex; justify-content: space-between; gap: 20px; padding: 30px 8vw; color: var(--muted); border-top: 1px solid var(--line); font-size: 14px; }
+@media (max-width: 860px) {
+  .site-header { position: static; align-items: flex-start; flex-direction: column; }
+  .nav { width: 100%; overflow-x: auto; gap: 18px; padding-bottom: 4px; }
+  .hero, .two-col, .artisans, .contact { grid-template-columns: 1fr; }
+  .hero { padding-top: 48px; }
+  .hero-card { min-height: 360px; }
+  .category-grid { grid-template-columns: 1fr; }
+  .section { padding: 72px 6vw; }
+  .footer { flex-direction: column; }
+}
