@@ -94,7 +94,7 @@ export default function Home() {
             Curated fields of Japanese craftsmanship.
           </h2>
           <div className="mt-12 grid gap-4 md:grid-cols-3">
-            {["Kimono & Textiles", "Ceramics", "Woodcraft"].map((item, index) => (
+           {["Kimono & Textiles", "Ceramics", "Woodcraft", "Glass Art", "Japanese Swords & Knives"].map((item, index) => (
               <div key={item} className="rounded-3xl border border-black/10 bg-white/35 p-8">
                 <p className="mb-10 text-sm tracking-[0.22em] text-[#8A6748]">0{index + 1}</p>
                 <h3 className="text-2xl font-medium">{item}</h3>
