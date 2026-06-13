@@ -174,14 +174,6 @@ function StoryCard({ title, location, text, href }: { title: string; location: s
 
   return content;
 }
-  return (
-    <article className="rounded-3xl border border-black/10 bg-white/35 p-8">
-      <p className="mb-12 text-sm tracking-[0.2em] text-[#8A6748]">{location}</p>
-      <h3 className="mb-4 text-2xl font-medium">{title}</h3>
-      <p className="leading-7 text-[#5F5A52]">{text}</p>
-    </article>
-  )
-}
 
 function SiteFooter() {
   return (
