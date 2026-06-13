@@ -83,6 +83,9 @@ export default function Home() {
             <StoryCard title="Textiles & Kimono" location="Kyoto / Nishijin" text="Silk, embroidery, weaving, and textile work connected to generations of refined skill." />
             <StoryCard title="Ceramics" location="Japan" text="Vessels shaped by clay, fire, function, and regional expression." />
             <StoryCard title="Wood & Living Craft" location="Japan" text="Objects for daily life made with discipline, patience, and quiet beauty." />
+            <StoryCard title="Glass Art" location="Kyushu" text="Works shaped through light, color, technique, and artistic vision." />
+            <StoryCard title="Japanese Swords & Knives" location="Japan" text="Traditions of steel, precision, and craftsmanship passed through generations." />
+            <StoryCard title="Future Discoveries" location="Future" text="New artisans, regions, and traditions waiting to be discovered." />
           </div>
         </div>
       </section>
