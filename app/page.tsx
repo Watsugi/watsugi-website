@@ -81,9 +81,9 @@ export default function Home() {
 
           <div className="grid gap-6 md:grid-cols-3">
             <StoryCard title="Textiles & Kimono" location="Kyoto / Nishijin" text="Silk, embroidery, weaving, and textile work connected to generations of refined skill." />
-            <StoryCard title="Ceramics" location="Japan" text="Vessels shaped by clay, fire, function, and regional expression." />
+            <StoryCard title="Ceramics" location="Japan" text="Vessels shaped by clay, fire, function, and regional expression." href="/artisans/fukagawa-seiji" />
             <StoryCard title="Wood & Living Craft" location="Japan" text="Objects for daily life made with discipline, patience, and quiet beauty." />
-            <StoryCard title="Glass Art" location="Kyushu" text="Works shaped through light, color, technique, and artistic vision." />
+            <StoryCard title="Glass Art" location="Kyushu" text="Works shaped through light, color, technique, and artistic vision." href="/artisans/glass-art-kuroki" />
             <StoryCard title="Japanese Swords & Knives" location="Japan" text="Traditions of steel, precision, and craftsmanship passed through generations." />
             <StoryCard title="Future Discoveries" location="Future" text="New artisans, regions, and traditions waiting to be discovered." />
           </div>
@@ -159,7 +159,21 @@ function Feature({ title, text }: { title: string; text: string }) {
   )
 }
 
-function StoryCard({ title, location, text }: { title: string; location: string; text: string }) {
+function StoryCard({ title, location, text, href }: { title: string; location: string; text: string; href?: string }) {
+  const content = (
+    <article className="rounded-3xl border border-black/10 bg-white/35 p-8 transition hover:bg-white/60">
+      <p className="mb-12 text-sm tracking-[0.2em] text-[#8A6748]">{location}</p>
+      <h3 className="mb-4 text-2xl font-medium">{title}</h3>
+      <p className="leading-7 text-[#5F5A52]">{text}</p>
+    </article>
+  );
+
+  if (href) {
+    return <a href={href}>{content}</a>;
+  }
+
+  return content;
+}
   return (
     <article className="rounded-3xl border border-black/10 bg-white/35 p-8">
       <p className="mb-12 text-sm tracking-[0.2em] text-[#8A6748]">{location}</p>
