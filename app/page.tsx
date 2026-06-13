@@ -133,6 +133,7 @@ function SiteHeader({ lang, switchHref, switchLabel }: { lang: string; switchHre
     <header className="sticky top-0 z-50 flex items-center justify-between border-b border-black/10 bg-[#F8F5F0]/90 px-8 py-5 backdrop-blur md:px-16 lg:px-24">
       <a href="/" className="text-xl font-semibold tracking-tight">和継 Watsugi</a>
       <nav className="hidden items-center gap-8 text-sm md:flex">
+        <a href="/about">About</a>
         <a href="#philosophy">Philosophy</a>
         <a href="#artisans">Artisans</a>
         <a href="#discover">Discover</a>
