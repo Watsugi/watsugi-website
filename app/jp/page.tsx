@@ -1,7 +1,7 @@
 export default function JapaneseHome() {
   return (
     <main className="min-h-screen bg-[#F8F5F0] text-[#171717]">
-      <SiteHeader lang="JP" switchHref="/" switchLabel="EN" />
+      <SiteHeader lang="日本語" switchHref="/" switchLabel="EN" />
 
       <section className="px-8 py-24 md:px-16 lg:px-24">
         <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[1.05fr_0.95fr]">
