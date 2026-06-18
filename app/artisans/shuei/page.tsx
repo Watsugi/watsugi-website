@@ -12,7 +12,12 @@ export default function ShueiPage() {
             Embroidery that carries
             tradition across generations.
           </h1>
-
+          <div className="mt-12 mb-12 rounded-3xl overflow-hidden bg-black/5 h-[420px] flex items-center justify-center">
+  <span className="text-[#8A6748] tracking-[0.2em]">
+    SHUEI IMAGE PLACEHOLDER
+  </span>
+</div>
+          
           <div className="space-y-8 text-lg leading-8 text-[#5F5A52]">
 
             <p>
