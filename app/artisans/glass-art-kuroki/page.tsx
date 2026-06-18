@@ -44,6 +44,6 @@ Watsugi is honored to introduce the story, philosophy, and craftsmanship of Glas
           </blockquote>
 
         </div>
-      "Glass is not merely shaped by fire — it is shaped by tradition, nature, and the spirit of the artist."
+    
   );
 }
