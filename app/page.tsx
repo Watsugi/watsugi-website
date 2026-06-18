@@ -80,7 +80,7 @@ export default function Home() {
           </div>
 
           <div className="grid gap-6 md:grid-cols-3">
-            <StoryCard title="Textiles & Kimono" location="Kyoto / Nishijin" text="Silk, embroidery, weaving, and textile work connected to generations of refined skill." />
+            <StoryCard title="Textiles & Kimono" location="Kyoto / Nishijin" text="Silk, embroidery, weaving, and textile work connected to generations of refined skill." href="/artisans/shuei" />
             <StoryCard title="Ceramics" location="Japan" text="Vessels shaped by clay, fire, function, and regional expression." href="/artisans/fukagawa-seiji" />
             <StoryCard title="Wood & Living Craft" location="Japan" text="Objects for daily life made with discipline, patience, and quiet beauty." />
             <StoryCard title="Glass Art" location="Kyushu" text="Works shaped through light, color, technique, and artistic vision." href="/artisans/glass-art-kuroki" />
