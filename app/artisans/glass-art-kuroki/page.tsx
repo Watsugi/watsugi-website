@@ -49,6 +49,7 @@ Watsugi is honored to introduce the story, philosophy, and craftsmanship of Glas
           </blockquote>
 
         </div>
-    
-  );
-}
+        </section>
+        </main>
+        );
+        }
