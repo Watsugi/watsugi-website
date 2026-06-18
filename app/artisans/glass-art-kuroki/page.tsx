@@ -16,30 +16,25 @@ export default function GlassArtKurokiPage() {
 
           <div className="space-y-8 text-lg leading-8 text-[#5F5A52]">
 
-            <p>
-              Located in Miyazaki Prefecture, Glass Art Kuroki
-              is known for creating handcrafted glass works that
-              combine traditional techniques with contemporary design.
-            </p>
+           <p>
+Founded in Aya, Miyazaki in 1989, Glass Art Kuroki has become one of Japan's most respected names in contemporary glass artistry. Through a unique fusion of traditional Japanese aesthetics and innovative glassmaking techniques, the workshop has created a distinctive artistic world recognized both in Japan and internationally.
+</p>
 
-            <p>
-              Every piece reflects the beauty of transparency,
-              color, light, and the individuality that can only
-              be achieved through skilled handwork.
-            </p>
+<p>
+The studio was established by Kuniaki Kuroki, a master glass artist whose work has been honored by the Japanese Government and selected by the Imperial Household. For decades, he pursued the beauty of Japan through glass, developing works that express nature, changing seasons, and the spirit of Japanese craftsmanship.
+</p>
 
-            <p>
-              Through years of dedication and experimentation,
-              the workshop has developed a distinctive approach
-              that values craftsmanship, artistic expression,
-              and the unique character of each creation.
-            </p>
+<p>
+Today, the legacy continues through the second generation, who carries forward both the techniques and philosophy established by the founder. Respect for materials, dedication to artistic excellence, and a commitment to preserving Japanese beauty remain at the heart of every creation.
+</p>
 
-            <p>
-              Watsugi is honored to introduce the story,
-              philosophy, and craftsmanship of Glass Art Kuroki
-              to a wider international audience.
-            </p>
+<p>
+Glass Art Kuroki is especially known for celebrated series such as KORIN, New Century Romance, and Aya Kiriko, each exploring different expressions of Japanese culture, nature, and artistic imagination through luminous glass.
+</p>
+
+<p>
+Watsugi is honored to introduce the story, philosophy, and craftsmanship of Glass Art Kuroki to people around the world who value authenticity, heritage, and human skill.
+</p>
 
           </div>
 
@@ -49,7 +44,6 @@ export default function GlassArtKurokiPage() {
           </blockquote>
 
         </div>
-      </section>
-    </main>
+      "Glass is not merely shaped by fire — it is shaped by tradition, nature, and the spirit of the artist."
   );
 }
