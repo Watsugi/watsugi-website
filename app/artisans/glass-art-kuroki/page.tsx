@@ -47,6 +47,14 @@ Watsugi is honored to introduce the story, philosophy, and craftsmanship of Glas
             "Glass becomes most beautiful when it captures
             both light and the spirit of the maker."
           </blockquote>
+          <div className="mt-12">
+  <a
+    href="/#artisans"
+    className="inline-block rounded-full border border-black/20 px-6 py-3 text-sm hover:bg-black hover:text-white transition"
+  >
+    ← Back to Artisan Stories
+  </a>
+</div>
 
         </div>
         </section>
