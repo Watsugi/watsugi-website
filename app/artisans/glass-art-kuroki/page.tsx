@@ -13,6 +13,11 @@ export default function GlassArtKurokiPage() {
             <br />
             color, and human skill.
           </h1>
+          <div className="mb-16 h-[500px] rounded-[32px] bg-[#E5E2DD] flex items-center justify-center">
+  <p className="tracking-[0.22em] text-[#8A6748] text-xl">
+    GLASS ART KUROKI IMAGE PLACEHOLDER
+  </p>
+</div>
 
           <div className="space-y-8 text-lg leading-8 text-[#5F5A52]">
 
