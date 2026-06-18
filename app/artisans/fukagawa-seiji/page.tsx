@@ -55,6 +55,14 @@ export default function FukagawaSeijiPage() {
             "True porcelain carries both beauty and the spirit
             of those who create it."
           </blockquote>
+          <div className="mt-12">
+  <a
+    href="/#artisans"
+    className="inline-block rounded-full border border-black/20 px-6 py-3 text-sm hover:bg-black hover:text-white transition"
+  >
+    ← Back to Artisan Stories
+  </a>
+</div>
 
         </div>
       </section>
