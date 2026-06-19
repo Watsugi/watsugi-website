@@ -45,9 +45,9 @@ export default function ArtisansPage() {
                 Starting with the crafts closest to Watsugi’s path.
               </h2>
             </div>
-            <p className="max-w-md text-lg leading-8 text-[#5F5A52]">
-              These profile cards are placeholders. As you meet artisans, each card can become a detailed story page.
-            </p>
+           <p className="max-w-md text-lg leading-8 text-[#5F5A52]">
+  Begin with three living craft stories connected to Kyoto textiles, Arita porcelain, and Miyazaki glass.
+</p>
           </div>
 
           <div className="grid gap-6 md:grid-cols-3">
