@@ -128,13 +128,19 @@ function Principle({ title, text }: { title: string; text: string }) {
   )
 }
 
-function ArtisanCard({ field, place, title, text }: { field: string; place: string; title: string; text: string }) {
-  return (
-    <article className="rounded-3xl border border-black/10 bg-white/35 p-8">
+function ArtisanCard({ field, place, title, text, href }: { field: string; place: string; title: string; text: string; href?: string }) {
+  const content = (
+    <article className="rounded-3xl border border-black/10 bg-white/35 p-8 transition hover:bg-white/60">
       <p className="mb-4 text-sm tracking-[0.22em] text-[#8A6748]">{place}</p>
       <p className="mb-16 text-sm text-[#5F5A52]">{field}</p>
       <h3 className="mb-5 text-2xl font-medium leading-tight">{title}</h3>
       <p className="leading-7 text-[#5F5A52]">{text}</p>
     </article>
-  )
+  );
+
+  if (href) {
+    return <a href={href}>{content}</a>;
+  }
+
+  return content;
 }
