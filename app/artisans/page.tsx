@@ -51,24 +51,27 @@ export default function ArtisansPage() {
           </div>
 
           <div className="grid gap-6 md:grid-cols-3">
-            <ArtisanCard
-              field="Textiles & Kimono"
-              place="Kyoto / Nishijin"
-              title="Silk, embroidery, weaving, and the discipline of refined detail."
-              text="For workshops connected to kimono, textile heritage, embroidery, weaving, and fabric-based craft."
-            />
-            <ArtisanCard
-              field="Ceramics"
-              place="Japan"
-              title="Clay, fire, form, and regional expression."
-              text="For potters and ceramic studios whose work carries both function and quiet presence."
-            />
-            <ArtisanCard
-              field="Wood & Living Craft"
-              place="Japan"
-              title="Objects for daily life, shaped by patience."
-              text="For woodworkers, furniture makers, lacquer-related craft, and objects made for long use."
-            />
+           <ArtisanCard
+  field="Textiles & Kimono"
+  place="Kyoto / Nishijin"
+  title="Silk, embroidery, weaving, and the discipline of refined detail."
+  text="A Kyoto textile story connected to Shuei, decorative embroidery, and generations of kimono craftsmanship."
+  href="/artisans/shuei"
+/>
+<ArtisanCard
+  field="Ceramics"
+  place="Saga / Arita"
+  title="Porcelain shaped through generations."
+  text="Arita porcelain through Fukagawa Seiji, refined forms, brilliant glazes, and hand-painted decoration."
+  href="/artisans/fukagawa-seiji"
+/>
+<ArtisanCard
+  field="Glass Art"
+  place="Aya, Miyazaki"
+  title="Glass shaped by light, color, and human skill."
+  text="Glass Art Kuroki, founded in 1989, carrying Japanese beauty through contemporary glass artistry."
+  href="/artisans/glass-art-kuroki"
+/>
           </div>
         </div>
       </section>
