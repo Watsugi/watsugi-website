@@ -10,7 +10,7 @@ export default function ArtisansPage() {
           <a href="/#for-artisans">For Artisans</a>
         </nav>
         <div className="flex items-center gap-3">
-          <a className="rounded-full border border-black/15 px-4 py-2 text-sm" href="/jp/artisans">EN / JP</a>
+          <a className="rounded-full border border-black/15 px-4 py-2 text-sm" href="/jp/artisans">EN / 日本語</a>
           <a className="rounded-full bg-[#171717] px-5 py-2 text-sm text-white" href="mailto:hello@watsugi.co.jp">Contact</a>
         </div>
       </header>
