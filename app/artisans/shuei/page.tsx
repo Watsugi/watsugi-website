@@ -20,38 +20,21 @@ export default function ShueiPage() {
           
           <div className="space-y-8 text-lg leading-8 text-[#5F5A52]">
 
-            <p>
-              Based in Kyoto, Shuei is a creator of finely crafted kimono
-              and textile works rooted in Japan's rich tradition of
-              decorative embroidery.
-            </p>
+           <p>
+  In Kyoto, Watsugi was introduced to Shuei through a visit to the newly opened kimono gallery connected with GLION. The encounter began not as a transaction, but as a quiet introduction to silk, embroidery, and the people who carry this work forward.
+</p>
 
-            <p>
-              Through techniques developed and refined over generations,
-              Shuei brings together artistry, patience, and technical
-              mastery to create pieces that celebrate both beauty and
-              cultural heritage.
-            </p>
+<p>
+  Shuei creates finely crafted kimono and textile works rooted in Japan's decorative embroidery traditions. Their work reflects patience, precision, and the accumulated skill of many hands.
+</p>
 
-            <p>
-              Their work includes traditional embroidery styles such as
-              Sagara embroidery, flat embroidery, Shantou embroidery,
-              and sashiko-inspired techniques, each requiring exceptional
-              skill and attention to detail.
-            </p>
+<p>
+  The pieces we saw combined Kyoto kimono sensibility with exceptional handwork, including embroidery techniques that require discipline, time, and deep attention to detail.
+</p>
 
-            <p>
-              Today, Shuei continues to preserve these traditions while
-              exploring new possibilities for Japanese craftsmanship in a
-              modern world, ensuring that timeless techniques remain
-              relevant for future generations.
-            </p>
-
-            <p>
-              Watsugi is honored to introduce the story, philosophy,
-              and craftsmanship of Shuei to people around the world who
-              value authenticity, heritage, and human skill.
-            </p>
+<p>
+  For Watsugi, Shuei represents the kind of living craftsmanship we hope to introduce with care: work that is beautiful not only because of its appearance, but because of the people, process, and heritage behind it.
+</p>
 
           </div>
 
