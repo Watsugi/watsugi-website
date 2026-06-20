@@ -27,7 +27,7 @@ export default function ShueiPage() {
           <div className="space-y-8 text-lg leading-8 text-[#5F5A52]">
 
            <p>
-  Our relationship with Shuei began through the commissioning of a kimono. Through that experience, we came to appreciate not only the beauty of the finished work, but also the dedication of the people behind it. Later, an invitation to visit GLION's newly opened kimono gallery in Kyoto provided an opportunity to learn more about the craftsmanship, traditions, and artisans that continue to shape Shuei today. There, we had the pleasure of meeting Wakana Tabata, whose insights helped deepen our understanding of the philosophy, craftsmanship, and creative vision behind Shuei's work.
+  Our relationship with Shuei began through the commissioning of a kimono. Through that experience, and through the people who guided us in selecting and understanding the piece, we came to appreciate not only the beauty of the finished work, but also the dedication of the people behind it. Later, an invitation to visit GLION's newly opened kimono gallery in Kyoto provided an opportunity to learn more about the craftsmanship, traditions, and artisans that continue to shape Shuei today. There, we had the pleasure of meeting Wakana Tabata, whose insights helped deepen our understanding of the philosophy, craftsmanship, and creative vision behind Shuei's work.
 </p>
 
 <p>
