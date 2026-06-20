@@ -28,44 +28,43 @@ export default function FukagawaSeijiPage() {
           </h1>
 
           <div className="space-y-8 text-lg leading-8 text-[#5F5A52]">
+  <p>
+    In Arita, where Japan's porcelain tradition began more than four centuries ago,
+    Fukagawa Seiji continues a legacy that has shaped the reputation of Japanese
+    ceramics around the world.
+  </p>
 
-            <p>
-              Fukagawa Seiji is one of Japan's most respected
-              porcelain makers, rooted in the historic ceramic
-              traditions of Arita in Saga Prefecture.
-            </p>
+  <p>
+    Established in the heart of Saga Prefecture, the company is known for porcelain
+    that combines technical excellence, refined design, and a deep respect for
+    tradition. Their work reflects generations of accumulated knowledge, from the
+    preparation of clay to the final stages of decoration and firing.
+  </p>
 
-            <p>
-              Since its founding, the company has pursued a
-              philosophy that combines exceptional craftsmanship,
-              elegant design, and technical excellence in porcelain.
-            </p>
+  <p>
+    What draws Watsugi to Fukagawa Seiji is not only the beauty of the finished
+    pieces, but also the dedication required to create them. Every vessel begins
+    with skilled hands, careful observation, and a commitment to standards that
+    cannot be achieved through mass production alone.
+  </p>
 
-            <p>
-              The distinctive beauty of Fukagawa Seiji works can
-              be seen in their refined forms, brilliant glazes,
-              and detailed hand-painted decoration that reflects
-              both tradition and innovation.
-            </p>
+  <p>
+    The world of Arita porcelain is often associated with elegance and precision.
+    Fukagawa Seiji represents these qualities while continuing to demonstrate how
+    traditional craftsmanship can remain relevant in contemporary life.
+  </p>
 
-            <p>
-              Through its dedication to quality and artistic
-              expression, Fukagawa Seiji continues to represent
-              the highest standards of Japanese ceramic culture.
-            </p>
+  <p>
+    As Watsugi continues to explore the artisans and makers who preserve Japan's
+    cultural heritage, Fukagawa Seiji stands as an important example of how
+    craftsmanship, history, and beauty can be carried forward from one generation
+    to the next.
+  </p>
+</div>
 
-            <p>
-              Watsugi is honored to introduce the history,
-              philosophy, and craftsmanship of Fukagawa Seiji
-              to audiences seeking authentic Japanese artistry.
-            </p>
-
-          </div>
-
-          <blockquote className="mt-16 border-l-4 border-[#8A6748] pl-6 italic text-xl">
-            "True porcelain carries both beauty and the spirit
-            of those who create it."
-          </blockquote>
+<blockquote className="mt-16 border-l-4 border-[#8A6748] pl-6 italic text-xl">
+  "True craftsmanship is not only found in the finished piece, but in the generations of knowledge behind it."
+</blockquote>
           <div className="mt-12">
   <a
     href="/#artisans"
