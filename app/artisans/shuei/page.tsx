@@ -27,11 +27,11 @@ export default function ShueiPage() {
           <div className="space-y-8 text-lg leading-8 text-[#5F5A52]">
 
            <p>
-  Our relationship with Shuei began through the commissioning of a kimono. Through that experience, we came to appreciate not only the beauty of the finished work, but also the dedication of the people behind it. Later, an invitation to visit a newly opened GLION kimono gallery in Kyoto provided an opportunity to learn more about the craftsmanship, traditions, and artisans that continue to shape Shuei today. There, we had the pleasure of meeting Wakana Tabata, whose insights helped deepen our understanding of the craftsmanship and traditions that continue to shape Shuei today.
+  Our relationship with Shuei began through the commissioning of a kimono. Through that experience, we came to appreciate not only the beauty of the finished work, but also the dedication of the people behind it. Later, an invitation to visit GLION's newly opened kimono gallery in Kyoto provided an opportunity to learn more about the craftsmanship, traditions, and artisans that continue to shape Shuei today. There, we had the pleasure of meeting Wakana Tabata, whose insights helped deepen our understanding of the philosophy, craftsmanship, and creative vision behind Shuei's work.
 </p>
 
 <p>
-  Shuei creates kimono and textile works that bring together Kyoto design sensibilities, Nishijin weaving traditions, fine silk materials, and exceptional embroidery craftsmanship. Each piece reflects the accumulated knowledge of designers, weavers, dyers, embroiderers, and artisans who dedicate themselves to preserving these skills. Many of these techniques require years, and often decades, to master.
+  Shuei creates kimono and textile works that bring together Kyoto design sensibilities, Nishijin weaving traditions, fine silk materials, and exceptional embroidery craftsmanship. Each piece reflects the accumulated knowledge of designers, weavers, dyers, embroiderers, and artisans who dedicate themselves to preserving these skills. Many of these techniques require years, and often decades, to master. The company is particularly recognized for combining Kyoto kimono aesthetics with highly sophisticated embroidery techniques that transform silk into works of art.
 </p>
 
 <p>
@@ -39,7 +39,7 @@ export default function ShueiPage() {
 </p>
 
 <p>
-  Behind every finished kimono stands a network of highly specialized craftspeople. While their names are often unknown to the final customer, their expertise forms the foundation of every piece. Watsugi believes that these artisans deserve recognition alongside the works they create.
+  Behind every finished kimono stands a network of highly specialized craftspeople. While their names are often unknown to the final customer, their expertise forms the foundation of every piece. Watsugi believes that these artisans deserve recognition alongside the works they create. Many of these artisans work quietly behind the scenes, yet their skills are essential to preserving the cultural heritage embedded in every piece.
 </p>
          
 <p>
