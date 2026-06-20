@@ -35,9 +35,7 @@ export default function FukagawaSeijiPage() {
   </p>
 
   <p>
-    Established in the heart of Saga Prefecture, the company is known for porcelain
-    that combines technical excellence, refined design, and a deep respect for
-    tradition. Their work reflects generations of accumulated knowledge, from the
+    Founded in 1894 in Arita, Saga Prefecture, Fukagawa Seiji has become one of Japan's most respected porcelain makers, known for combining technical excellence, refined design, and a deep respect for tradition. Their work reflects generations of accumulated knowledge, from the
     preparation of clay to the final stages of decoration and firing.
   </p>
 
