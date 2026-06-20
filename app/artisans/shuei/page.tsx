@@ -31,11 +31,11 @@ export default function ShueiPage() {
 </p>
 
 <p>
-  Shuei creates kimono and textile works that bring together Kyoto design sensibilities, Nishijin textile traditions, fine silk materials, and exceptional embroidery craftsmanship. Each piece reflects the accumulated knowledge of designers, weavers, dyers, embroiderers, and artisans who dedicate themselves to preserving these skills.
+  Shuei creates kimono and textile works that bring together Kyoto design sensibilities, Nishijin textile traditions, fine silk materials, and exceptional embroidery craftsmanship. Each piece reflects the accumulated knowledge of designers, weavers, dyers, embroiderers, and artisans who dedicate themselves to preserving these skills. Many of these techniques require years, and often decades, to master.
 </p>
 
 <p>
-  During our visit, we were particularly impressed by the level of detail found in the embroidery. The delicate textures, subtle use of color, and extraordinary precision demonstrated the countless hours of skill and experience required to transform silk into wearable art.
+  During our visit, we were particularly impressed by the remarkable level of detail found in the embroidery. The delicate textures, subtle use of color, and extraordinary precision demonstrated the countless hours of skill and experience required to transform silk into wearable art.
 </p>
 
 <p>
