@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function FukagawaSeijiPage() {
   return (
     <main className="min-h-screen bg-[#F8F5F0] text-[#171717]">
@@ -14,6 +15,16 @@ export default function FukagawaSeijiPage() {
             refined through
             <br />
             generations.
+            <div className="mt-12 mb-12 overflow-hidden rounded-3xl">
+  <Image
+    src="/images/fukagawa-seiji/hero.jpg"
+    alt="Fukagawa Seiji porcelain craftsmanship"
+    width={1600}
+    height={900}
+    className="h-auto w-full object-cover"
+    priority
+  />
+</div>
           </h1>
 
           <div className="space-y-8 text-lg leading-8 text-[#5F5A52]">
