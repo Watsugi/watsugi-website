@@ -7,14 +7,14 @@ export default function JapaneseHome() {
         <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[1.05fr_0.95fr]">
           <div>
             <p className="mb-6 text-sm tracking-[0.22em] text-[#8A6748]">
-              DISCOVER · CONNECT · KEEP CRAFT ALIVE
-            </p>
-            <h1 className="max-w-4xl text-5xl font-semibold leading-[1.05] tracking-[-0.05em] md:text-7xl">
-              日本の手仕事を、敬意とともに次へつなぐ。
-            </h1>
-            <p className="mt-8 max-w-2xl text-lg leading-9 text-[#5F5A52] md:text-xl">
-              和継は、日本の職人、その物語、そして作品を、本質的な価値を求める人々へ丁寧につなぐための場所です。
-            </p>
+  日本の手仕事を、次の世代へ
+</p>
+<h1 className="max-w-4xl text-5xl font-semibold leading-[1.05] tracking-[-0.05em] md:text-7xl">
+  職人の手仕事と、その背景にある物語を丁寧につなぐ。
+</h1>
+<p className="mt-8 max-w-2xl text-lg leading-9 text-[#5F5A52] md:text-xl">
+  和継は、日本の職人、工房、地域に受け継がれてきた技術や想いを、国内外の人々へ丁寧に紹介するための場所です。
+</p>
             <div className="mt-10 flex flex-wrap gap-4">
               <a className="rounded-full bg-[#171717] px-6 py-3 text-sm text-white" href="#discover">
                 手仕事を見る
@@ -29,7 +29,7 @@ export default function JapaneseHome() {
             <div className="mb-28 text-right tracking-[0.3em]">和継</div>
             <div className="mb-8 h-px w-24 bg-white/40" />
             <p className="max-w-sm text-2xl leading-snug">
-              土地、手、時間、そして物語から生まれるもの。
+              土地と人、技と時間。その積み重ねから生まれる価値。
             </p>
           </div>
         </div>
@@ -40,15 +40,17 @@ export default function JapaneseHome() {
           <p className="mb-5 text-sm tracking-[0.22em] text-[#8A6748]">PHILOSOPHY</p>
           <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr]">
             <h2 className="text-4xl font-semibold leading-tight tracking-[-0.04em] md:text-6xl">
-              それは単なる商品ではなく、人、土地、時間の記憶です。
-            </h2>
-            <div className="space-y-6 text-lg leading-9 text-[#5F5A52]">
-              <p>
-                和継は、まず耳を傾けることから始めます。作品を紹介する前に、作り手、土地、技法、そしてその仕事が受け継がれてきた理由を理解したいと考えています。
-              </p>
-              <p>
-                私たちの役割は、手仕事を単なる在庫として扱うことではありません。その背景と価値を、丁寧に次へつなぐことです。
-              </p>
+  手仕事の背景にある、人、土地、時間を伝える。
+</h2>
+<div className="space-y-6 text-lg leading-9 text-[#5F5A52]">
+  <p>
+    和継は、まず耳を傾けることから始めます。作品を紹介する前に、作り手、土地、技法、そしてその仕事が受け継がれてきた理由を丁寧に理解したいと考えています。
+  </p>
+  <p>
+    私たちの役割は、手仕事を単なる商品として扱うことではありません。その背景にある物語と価値を、敬意を持って次へつなぐことです。
+  </p>
+</div>
+             
             </div>
           </div>
         </div>
@@ -56,11 +58,12 @@ export default function JapaneseHome() {
 
       <section id="why" className="bg-[#18140F] px-8 py-24 text-[#F8F5F0] md:px-16 lg:px-24">
         <div className="mx-auto max-w-7xl">
-          <p className="mb-5 text-sm tracking-[0.22em] text-[#B89B7B]">WHY WATSUGI</p>
-          <div className="grid gap-8 md:grid-cols-3">
-            <Feature title="マーケットプレイスではありません" text="作り手の見えない商品一覧ではなく、一つひとつの背景を大切に伝えます。" />
-            <Feature title="職人を中心に" text="作り手が見ても納得できる、敬意ある紹介と表現を目指します。" />
-            <Feature title="海外へ届く言葉で" text="日本の文化的価値を、海外の人々にも伝わる形で丁寧に表現します。" />
+         <p className="mb-5 text-sm tracking-[0.22em] text-[#B89B7B]">WHY WATSUGI</p>
+<div className="grid gap-8 md:grid-cols-3">
+  <Feature title="商品ではなく、物語として" text="完成した作品だけでなく、その背景にある人、技、土地、時間を丁寧に伝えます。" />
+  <Feature title="作り手への敬意を中心に" text="職人や工房の歩みを尊重し、その価値が正しく伝わる紹介を目指します。" />
+  <Feature title="日本の手仕事を海外へ" text="日本の文化的価値を、海外の人々にも届くかたちで静かに、誠実に発信します。" />
+</div>
           </div>
         </div>
       </section>
@@ -71,18 +74,32 @@ export default function JapaneseHome() {
             <div>
               <p className="mb-5 text-sm tracking-[0.22em] text-[#8A6748]">ARTISAN STORIES</p>
               <h2 className="max-w-3xl text-4xl font-semibold leading-tight tracking-[-0.04em] md:text-6xl">
-                信頼は、手の背景にある物語から始まります。
+                信頼は、手仕事の背景にある物語から始まります。
               </h2>
             </div>
             <p className="max-w-md text-lg leading-9 text-[#5F5A52]">
-              今後、工房、地域、素材、技法を、訪問と対話を通じて紹介していきます。
+              今後、工房や地域を訪ね、作り手との対話を重ねながら、素材や技法、その背景にある物語を丁寧に紹介していきます。
             </p>
           </div>
 
           <div className="grid gap-6 md:grid-cols-3">
-            <StoryCard title="きもの・織物" location="京都・西陣" text="絹、刺繍、織、染め。長い時間の中で磨かれてきた繊細な技術。" />
-            <StoryCard title="陶芸" location="日本各地" text="土、火、用途、地域性から生まれる器と造形。" />
-            <StoryCard title="木工・暮らしの手仕事" location="日本各地" text="日々の暮らしに寄り添う、静かで確かな手の仕事。" />
+            <StoryCard
+  title="きもの・織物"
+  location="京都・西陣"
+  text="絹、染め、織り、刺繍。多くの職人の手によって受け継がれてきた日本の美意識。"
+/>
+
+<StoryCard
+  title="陶芸・磁器"
+  location="日本各地"
+  text="土と火、そして土地の個性から生まれる器。暮らしと文化を映す手仕事。"
+/>
+
+<StoryCard
+  title="木工・暮らしの手仕事"
+  location="日本各地"
+  text="素材の持ち味を活かし、日々の暮らしに静かな豊かさをもたらすものづくり。"
+/>
           </div>
         </div>
       </section>
