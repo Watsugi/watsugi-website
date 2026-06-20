@@ -27,11 +27,11 @@ export default function ShueiPage() {
           <div className="space-y-8 text-lg leading-8 text-[#5F5A52]">
 
            <p>
-  In Kyoto, Watsugi was introduced to Shuei through a visit to the newly opened kimono gallery connected with GLION. The encounter began not as a transaction, but as a quiet introduction to silk, embroidery, and the people who carry this work forward.
+  In Kyoto, Watsugi was introduced to Shuei during a visit to a newly opened kimono gallery operated by GLION. The encounter began not as a transaction, but as a quiet introduction to silk, embroidery, and the people who carry this work forward.
 </p>
 
 <p>
-  Shuei creates kimono and textile works that bring together Kyoto design sensibilities, Nishijin textile traditions, fine silk materials, and exceptional embroidery craftsmanship. Each piece reflects the accumulated knowledge of designers, weavers, dyers, embroiderers, and artisans who dedicate themselves to preserving these skills. Many of these techniques require years, and often decades, to master.
+  Shuei creates kimono and textile works that bring together Kyoto design sensibilities, Nishijin weaving traditions, fine silk materials, and exceptional embroidery craftsmanship. Each piece reflects the accumulated knowledge of designers, weavers, dyers, embroiderers, and artisans who dedicate themselves to preserving these skills. Many of these techniques require years, and often decades, to master.
 </p>
 
 <p>
