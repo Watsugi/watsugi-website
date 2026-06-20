@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ShueiPage() {
   return (
     <main className="min-h-screen bg-[#F8F5F0] text-[#171717]">
@@ -12,10 +13,15 @@ export default function ShueiPage() {
             Embroidery that carries
             tradition across generations.
           </h1>
-          <div className="mt-12 mb-12 rounded-3xl overflow-hidden bg-black/5 h-[420px] flex items-center justify-center">
-  <span className="text-[#8A6748] tracking-[0.2em]">
-    SHUEI IMAGE PLACEHOLDER
-  </span>
+          <div className="mt-12 mb-12 overflow-hidden rounded-3xl">
+  <Image
+    src="/images/shuei/hero.jpg"
+    alt="Shuei embroidery craftsmanship"
+    width={1600}
+    height={900}
+    className="h-auto w-full object-cover"
+    priority
+  />
 </div>
           
           <div className="space-y-8 text-lg leading-8 text-[#5F5A52]">
