@@ -27,7 +27,7 @@ export default function ShueiPage() {
           <div className="space-y-8 text-lg leading-8 text-[#5F5A52]">
 
            <p>
-  In Kyoto, Watsugi was introduced to Shuei during a visit to a newly opened kimono gallery operated by GLION. The encounter began not as a transaction, but as a quiet introduction to silk, embroidery, and the people who carry this work forward.
+  Our relationship with Shuei began through the purchase of a kimono. Through that experience, we came to appreciate not only the beauty of the finished work, but also the dedication of the people behind it. Later, an invitation to visit a newly opened GLION kimono gallery in Kyoto provided an opportunity to learn more about the craftsmanship, traditions, and artisans that continue to shape Shuei today.
 </p>
 
 <p>
