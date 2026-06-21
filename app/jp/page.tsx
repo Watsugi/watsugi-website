@@ -52,7 +52,7 @@ export default function JapaneseHome() {
             
             </div>
           </div>
-        </div>
+        
       </section>
 
       <section id="why" className="bg-[#18140F] px-8 py-24 text-[#F8F5F0] md:px-16 lg:px-24">
@@ -64,7 +64,7 @@ export default function JapaneseHome() {
   <Feature title="日本の手仕事を海外へ" text="日本の文化的価値を、海外の人々にも届くかたちで静かに、誠実に発信します。" />
 </div>
           </div>
-        </div>
+        
       </section>
 
       <section id="artisans" className="border-t border-black/10 px-8 py-24 md:px-16 lg:px-24">
