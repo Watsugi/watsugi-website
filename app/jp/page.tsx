@@ -10,7 +10,7 @@ export default function JapaneseHome() {
               日本の手仕事を、次の世代へ
             </p>
             <h1 className="max-w-4xl text-5xl font-semibold leading-[1.05] tracking-[-0.05em] md:text-7xl">
-              職人の手仕事と、その背景にある物語を丁寧につなぐ。
+              日本の手仕事と、その背景にある物語を丁寧につなぐ。
             </h1>
             <p className="mt-8 max-w-2xl text-lg leading-9 text-[#5F5A52] md:text-xl">
               和継は、日本の職人、工房、地域に受け継がれてきた技術や想いを、国内外の人々へ丁寧に紹介するための場所です。
