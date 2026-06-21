@@ -29,7 +29,7 @@ export default function JapaneseHome() {
             <div className="mb-28 text-right tracking-[0.3em]">和継</div>
             <div className="mb-8 h-px w-24 bg-white/40" />
             <p className="max-w-sm text-2xl leading-snug">
-              土地と人、技と時間。その積み重ねから生まれる価値。
+              土地、人の手、時間、そして物語から生まれるもの。
             </p>
           </div>
         </div>
@@ -111,7 +111,7 @@ export default function JapaneseHome() {
             日本の手仕事を、分野ごとに丁寧に紹介します。
           </h2>
           <div className="mt-12 grid gap-4 md:grid-cols-3">
-            {["きもの・織物", "陶芸", "木工"].map((item, index) => (
+            {["きもの・織物", "陶芸・磁器", "木工・暮らしの手仕事"].map((item, index) => (
               <div key={item} className="rounded-3xl border border-black/10 bg-white/35 p-8">
                 <p className="mb-10 text-sm tracking-[0.22em] text-[#8A6748]">0{index + 1}</p>
                 <h3 className="text-2xl font-medium">{item}</h3>
