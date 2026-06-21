@@ -53,7 +53,7 @@ export default function JapaneseShueiPage() {
           </div>
 
           <blockquote className="mt-16 border-l-4 border-[#8A6748] pl-6 text-xl italic">
-            "日本の手仕事の美しさは、完成した作品だけでなく、それを作り続ける人々の中にもあります。"
+            「日本の手仕事の美しさは、完成した作品だけでなく、それを作り続ける人々の中にもあります。」
           </blockquote>
 
           <div className="mt-12">
