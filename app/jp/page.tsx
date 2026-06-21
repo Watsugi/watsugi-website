@@ -49,8 +49,7 @@ export default function JapaneseHome() {
   <p>
     私たちの役割は、手仕事を単なる商品として扱うことではありません。その背景にある物語と価値を、敬意を持って次へつなぐことです。
   </p>
-</div>
-             
+            
             </div>
           </div>
         </div>
